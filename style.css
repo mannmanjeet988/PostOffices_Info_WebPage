@@ -1,6 +1,187 @@
 *{
     /* background-color: blue; */
+    font-family: 'Inter', sans-serif;
     margin:0px;
     padding:0px;
     box-sizing: border-box;
 }
+
+#left-container{
+    width:50vw;
+    /* border:1px solid blue; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+p{
+    color:white;
+    padding: 4px;
+    /* margin-bottom:10px; */
+}
+
+img{
+    margin-top: 25px;
+    width:90%;
+    height:70%;
+}
+
+#right-container{
+    /* border:2px solid red; */
+    width:50vw;
+    display:flex;
+    flex-direction: column;
+    gap:20px;
+    background-color: #575A85;
+    justify-content: center;
+    align-items: center;
+}
+
+#top-container{
+    display:flex;
+    height:100vh;
+    /* justify-content: space-around;
+    align-items: center; */
+}
+
+#bottom-container{
+    background-color: black;
+
+}
+
+h2{
+    padding: 10px 20px;
+    color:white;
+    margin:10px;
+}
+
+.manjeet{
+    color: #B8BCCC;
+    font-size: 1rem;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#ip ,#ip1{
+    padding-left: 10px;
+    font-weight: 600;
+    font-size: 1.7rem;
+    color: white;
+}
+
+#searches {
+    /* display: none; */
+    align-items: center;
+    position: relative;
+}
+
+#mapDiv {
+    margin-top: 30px;
+    background-color: #575A85;
+    padding: 10px;
+}
+
+#map {
+    margin-top: 10px;
+    width: 99%;
+    height: 380px;
+    overflow: hidden;
+    padding: 10px;
+    border: none;
+}
+
+.currLocHeading{
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+#btn {
+    width: 200px;
+    height: 40px;
+    color: #B8BCCC;
+    background-color: #575A85;
+    border: 2px solid white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.lat,.long,.city,.region{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.data div {
+    margin-bottom: 10px;
+}
+
+#postData {
+    display: grid;
+    margin: 20px;
+    grid-template-columns: auto 50%;
+    gap: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+#postData .posts {
+    border: none;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    background-color: #575A85!important;
+    font-size: 1.1rem;
+    letter-spacing: 0.07rem;
+}
+
+.posts div{
+    margin-bottom: 12px;
+}
+
+.pinCodeData{
+    margin: 20px 0;
+    display: none;
+    color: blue;
+    font-size: 20px;
+}
+
+.pinCodeData div {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px;
+    color:#B8BCCC;
+}
+
+inner-container{
+    margin:20px;
+}
+
+input {
+    width: 97%;
+    height: 50px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+    /* display: none; */
+    margin: 30px 20px;
+    border: 3px solid #575A85;
+}
+
+input:focus {
+    border: none;
+    outline: none;
+}
+
+.heading{
+    text-align: center;
+}
+
+h2{
+    margin: 20px 0px;
+}
+

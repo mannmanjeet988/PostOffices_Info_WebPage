@@ -7,9 +7,72 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    <div><h1>Post Office Application</h1></div>
-    <div>This Application Allows you to extract information about the nearest Post Offices, based on your location.</div>
-    <div><img src="./assests/undraw_messenger_re_8bky 1.png"></div>
+    <div id="top-container">
+        <div id="left-container">
+            <div><h2 style="color:#575A85">Post Office Application</h2></div>
+        <div><p>This Application Allows you to extract information about</p></div>
+        <div><p>the nearest Post Offices, based on your location.</p></div>
+        <div><img src="./assests/undraw_messenger_re_8bky 1.png"></div>
+        </div>
+        <div id="right-container">
+          <div id="ip1" style="color:#B8BCCC;">Your current IP address is:</div>
+          <button id="btn">Get Started</button>
+        </div>
+    </div>
+
+    <div id="bottom-container" style="display:none">
+        <div class="main">
+            <h1 style="color:white; padding:30px 20px;">IP ADDRESS :<span id="ip" ></span></h1>
+            <!-- <button id="btn">Get Started</button> -->
+    
+            <div class="manjeet">
+                <div class="data">
+                    <div id="lat"></div>
+                    <div id="long"></div>
+                </div>
+    
+                <div class="data">
+                    <div id="city"></div>
+                    <div id="region"></div>
+                </div>
+    
+                <div class="data">
+                    <div id="org"></div>
+                    <div id="host"></div>
+                </div>
+            </div>
+    
+            <div id="far"></div>
+    
+            <div id="mapDiv">
+                <div class="currLocHeading"><h2>Your Current Location</h2></div>
+                <iframe id="map" src="">
+                </iframe>
+            </div>
+    
+            <div class="pinCodeData">
+                <div class="heading"><h2>More Information About You</h2></div>
+                <div class="inner-container">
+                <div id="time"></div>
+                <div id="date"></div>
+                <div id="pincode"></div>
+                <div id="message"></div>
+                </div>
+                <div class="heading" style="margin-top:20px;"><h2>Post Offices Near You</h2></div>
+            </div>
+            <div id="searches">
+                <input id="search" type="search" placeholder="Search By Name">
+            </div>
+    
+            <div id="postData">
+                
+            </div>
+    
+        </div>
+    </div>
     <script src="./script.js"></script>
+    <script src=
+"https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+    </script>
 </body>
 </html>
